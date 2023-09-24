@@ -6,7 +6,7 @@
         "category": "Health",
         "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
-        "btn-bg": "#0052FF",
+        "btn_bg": "#0052FF",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 15000
     },
@@ -17,7 +17,7 @@
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "card_bg": "rgba(255, 68, 74, 0.15)",
-        "btn-bg": "#FF444A",
+        "btn_bg": "#FF444A",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 2000
     },
@@ -28,7 +28,7 @@
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
         "card_bg": "rgba(121, 194, 63, 0.15)",
-        "btn-bg": "#79C23F",
+        "btn_bg": "#79C23F",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 1200
     },
@@ -39,7 +39,7 @@
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
         "card_bg": "rgba(248, 113, 71, 0.15)",
-        "btn-bg": "#F87147",
+        "btn_bg": "#F87147",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 1500
     },
@@ -50,7 +50,7 @@
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
         "card_bg": "rgba(248, 113, 71, 0.15)",
-        "btn-bg": "#F87147",
+        "btn_bg": "#F87147",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 1500
     },
@@ -61,7 +61,7 @@
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
         "card_bg": "rgba(121, 194, 63, 0.15)",
-        "btn-bg": "#79C23F",
+        "btn_bg": "#79C23F",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 1200
     },
@@ -72,7 +72,7 @@
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "card_bg": "rgba(255, 68, 74, 0.15)",
-        "btn-bg": "#FF444A",
+        "btn_bg": "#FF444A",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 2000
     },
@@ -83,7 +83,7 @@
         "category": "Health",
         "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
-        "btn-bg": "#0052FF",
+        "btn_bg": "#0052FF",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 15000
     },
@@ -94,7 +94,7 @@
         "category": "Health",
         "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
-        "btn-bg": "#0052FF",
+        "btn_bg": "#0052FF",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 15000
     },
@@ -105,7 +105,7 @@
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "card_bg": "rgba(255, 68, 74, 0.15)",
-        "btn-bg": "#FF444A",
+        "btn_bg": "#FF444A",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 2000
     },
@@ -116,7 +116,7 @@
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
         "card_bg": "rgba(121, 194, 63, 0.15)",
-        "btn-bg": "#79C23F",
+        "btn_bg": "#79C23F",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 1200
     },
@@ -127,7 +127,7 @@
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
         "card_bg": "rgba(248, 113, 71, 0.15)",
-        "btn-bg": "#F87147",
+        "btn_bg": "#F87147",
         "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 1500
     }
