@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.postimg.cc/ydVsdryb/01.jpg",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "btn-bg": "#0052FF",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 15000
+    },
+    {
+        "id": 2,
+        "img": "https://i.postimg.cc/gkcX5g94/02.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "btn-bg": "#FF444A",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 2000
+    },
+    {
+        "id": 3,
+        "img": "https://i.postimg.cc/W36zYkXQ/03.jpg",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "btn-bg": "#79C23F",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 1200
+    },
+    {
+        "id": 4,
+        "img": "https://i.postimg.cc/bryJ7w5d/04.jpg",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "btn-bg": "#F87147",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 1500
+    },
+    {
+        "id": 5,
+        "img": "https://i.postimg.cc/bryJ7w5d/04.jpg",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "btn-bg": "#F87147",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 1500
+    },
+    {
+        "id": 6,
+        "img": "https://i.postimg.cc/W36zYkXQ/03.jpg",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "btn-bg": "#79C23F",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 1200
+    },
+    {
+        "id": 7,
+        "img": "https://i.postimg.cc/gkcX5g94/02.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "btn-bg": "#FF444A",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 2000
+    },
+    {
+        "id": 8,
+        "img": "https://i.postimg.cc/ydVsdryb/01.jpg",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "btn-bg": "#0052FF",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 15000
+    },
+    {
+        "id": 9,
+        "img": "https://i.postimg.cc/ydVsdryb/01.jpg",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "btn-bg": "#0052FF",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 15000
+    },
+    {
+        "id": 10,
+        "img": "https://i.postimg.cc/gkcX5g94/02.jpg",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "btn-bg": "#FF444A",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 2000
+    },
+    {
+        "id": 11,
+        "img": "https://i.postimg.cc/W36zYkXQ/03.jpg",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "btn-bg": "#79C23F",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 1200
+    },
+    {
+        "id": 12,
+        "img": "https://i.postimg.cc/bryJ7w5d/04.jpg",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "btn-bg": "#F87147",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "price": 1500
+    }
+]
