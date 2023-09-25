@@ -13,16 +13,25 @@ const SelectCategory = () => {
         setCategory(findCategory);
     }, [id, cards]);
     const handleAddToDonation = () => {
-        toast("You have successfully donate !")
+        // toast("You have successfully donate !")
         const addDonationArray = [];
         const donation = JSON.parse(localStorage.getItem('donation'));
         if (!donation) {
             addDonationArray.push(category)
-            localStorage.setItem('donation', JSON.stringify(addDonationArray))
+            localStorage.setItem('donation', JSON.stringify(addDonationArray));
+            toast("You have successfully donate !");
         }
         else {
-            addDonationArray.push(...donation, category)
-            localStorage.setItem('donation', JSON.stringify(addDonationArray))
+            const isExist = donation.find(card => card.id == id);
+            if (!isExist) {
+                addDonationArray.push(...donation, category)
+                localStorage.setItem('donation', JSON.stringify(addDonationArray));
+                toast("You have successfully donate !");
+            }
+            else {
+                toast("You have already donated !");
+            }
+
         }
     }
 
