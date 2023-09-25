@@ -13,7 +13,6 @@ const SelectCategory = () => {
         setCategory(findCategory);
     }, [id, cards]);
     const handleAddToDonation = () => {
-        // toast("You have successfully donate !")
         const addDonationArray = [];
         const donation = JSON.parse(localStorage.getItem('donation'));
         if (!donation) {
@@ -46,8 +45,6 @@ const SelectCategory = () => {
                         Donate ${category.price}
                     </button>
                 </div>
-
-
 
                 <div className="p-6">
                     <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-black antialiased">

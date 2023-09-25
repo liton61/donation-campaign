@@ -6,8 +6,9 @@
         "category": "Health",
         "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
-        "btn_bg": "#FF444A",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "text_color": "#0052FF",
+        "btn_bg": "#0052FF",
+        "description": "Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and...",
         "price": 15000
     },
     {
@@ -17,8 +18,9 @@
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
         "btn_bg": "#FF444A",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking...",
         "price": 2000
     },
     {
@@ -28,8 +30,9 @@
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
         "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
         "btn_bg": "#79C23F",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic...",
         "price": 1200
     },
     {
@@ -39,8 +42,9 @@
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
         "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
         "btn_bg": "#F87147",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Food is one of the basic necessities of life. Food contains nutrients growth substances essential for the growth, repair, and...",
         "price": 1500
     },
     {
@@ -50,8 +54,9 @@
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
         "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
         "btn_bg": "#F87147",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and...",
         "price": 1500
     },
     {
@@ -61,8 +66,9 @@
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
         "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
         "btn_bg": "#79C23F",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic...",
         "price": 1200
     },
     {
@@ -72,8 +78,9 @@
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
         "btn_bg": "#FF444A",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking...",
         "price": 2000
     },
     {
@@ -83,8 +90,9 @@
         "category": "Health",
         "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
         "btn_bg": "#0052FF",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses.",
         "price": 15000
     },
     {
@@ -94,8 +102,9 @@
         "category": "Health",
         "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
-        "btn_bg": "#0052FF",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "text_color": "#0052FF",
+        "btn_bg": "##0052FF",
+        "description": "Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses.",
         "price": 15000
     },
     {
@@ -105,8 +114,9 @@
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
         "btn_bg": "#FF444A",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking...",
         "price": 2000
     },
     {
@@ -116,8 +126,9 @@
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
         "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
         "btn_bg": "#79C23F",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic...",
         "price": 1200
     },
     {
@@ -127,8 +138,9 @@
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
         "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
         "btn_bg": "#F87147",
-        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
+        "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and...",
         "price": 1500
     }
 ]

@@ -1,29 +1,21 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 const DonateCard = ({ card }) => {
-    const { id, img, category, title, price } = card
+    const { id, img, category, title, price, category_bg, card_bg, text_color, btn_bg } = card
     return (
         <div>
-            <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-                    <img
-                        src={img}
-                        alt="image"
-                        className="h-48 w-full object-cover"
-                    />
+            <div style={{ backgroundColor: card_bg }} className="relative flex w-full max-w-[48rem] flex-row rounded-xl">
+                <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none">
+                    <img src={img} alt="image" className="h-48 w-full object-cover" />
                 </div>
-                <div className="p-6">
-                    <h6 className="mb-4 block font-sans text-base font-semibold">
-                        {category}
-                    </h6>
-                    <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                <div className="p-6 font-semibold">
+                    <button style={{ backgroundColor: category_bg, color: text_color }} className="px-2 rounded text-sm font-semibold">{category}</button>
+                    <p className="mb-2 block text-xl font-bold leading-snug tracking-normal text-black antialiased">
                         {title}
-                    </h4>
-                    <h5>${price}</h5>
+                    </p>
+                    <p style={{ color: text_color }}>${price}</p>
                     <a className="inline-block" href="#">
-                        <button className="" type="button">
-                            View Details
-                        </button>
+                        <button style={{ backgroundColor: btn_bg }} className="px-3 py-2 rounded mt-3 text-white" type="button">View Details</button>
                     </a>
                 </div>
             </div>

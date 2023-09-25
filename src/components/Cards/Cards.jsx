@@ -8,6 +8,7 @@ const Cards = () => {
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
+    // const categoryFilter = cards.filter(h)
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-20">
             {
