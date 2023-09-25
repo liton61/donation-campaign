@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SelectCategory = () => {
     const [category, setCategory] = useState({});
@@ -11,6 +13,7 @@ const SelectCategory = () => {
         setCategory(findCategory);
     }, [id, cards]);
     const handleAddToDonation = () => {
+        toast("You have successfully donate !")
         const addDonationArray = [];
         const donation = JSON.parse(localStorage.getItem('donation'));
         if (!donation) {
@@ -46,6 +49,7 @@ const SelectCategory = () => {
                     </p>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };
