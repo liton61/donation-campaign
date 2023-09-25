@@ -1,9 +1,13 @@
 /* eslint-disable react/prop-types */
+
+import { Link } from "react-router-dom";
+
 /* eslint-disable no-unused-vars */
 const Card = ({ card }) => {
     const { id, img, category, title, price } = card
     return (
         <div>
+            <Link to={`/cards/${id}`}>
             <div className="relative flex w-72 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <div className="relative mx-4 mt-4 h-48 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
                     <img
@@ -25,6 +29,7 @@ const Card = ({ card }) => {
                     </p>
                 </div>
             </div>
+            </Link>
         </div>
     );
 };
