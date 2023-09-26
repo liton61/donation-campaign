@@ -41,7 +41,7 @@ const SelectCategory = () => {
                     <img src={category.img} alt="Banner Image" className="w-full h-screen" />
                     <div className="absolute inset-x-0 bottom-0 flex items-center justify-between h-1/6 bg-black opacity-50">
                     </div>
-                    <button onClick={handleAddToDonation} className="absolute bottom-4 left-4-4 bg-[#FF444A] text-white font-semibold py-2 px-4 ml-10 mb-4">
+                    <button onClick={handleAddToDonation} style={{ backgroundColor: category.btn_bg }} className="absolute bottom-4 left-4-4 bg-[#FF444A] text-white font-semibold py-2 px-4 ml-10 mb-4">
                         Donate ${category.price}
                     </button>
                 </div>

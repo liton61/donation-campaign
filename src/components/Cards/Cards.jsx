@@ -8,9 +8,8 @@ const Cards = () => {
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
-    // const categoryFilter = cards.filter(h)
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-20">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-2 mt-20 mb-20">
             {
                 cards.map(card => <Card key={card.id} card={card}></Card>)
             }

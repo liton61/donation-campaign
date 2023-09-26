@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 const DonateCard = ({ card }) => {
-    const { id, img, category, title, price, category_bg, card_bg, text_color, btn_bg } = card
+    const { img, category, title, price, category_bg, card_bg, text_color, btn_bg } = card
     return (
         <div>
-            <div style={{ backgroundColor: card_bg }} className="relative flex w-full max-w-[48rem] flex-row rounded-xl">
+            <div style={{ backgroundColor: card_bg }} className="relative flex w-full flex-row rounded-xl">
                 <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none">
                     <img src={img} alt="image" className="h-48 w-full object-cover" />
                 </div>

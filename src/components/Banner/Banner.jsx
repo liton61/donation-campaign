@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import DonateCard from "../DonateCard/DonateCard";
 import Card from "../Card/Card";
 import './Banner.css';
 
@@ -20,7 +19,7 @@ const Banner = () => {
 
     return (
         <div>
-            <div className="relative mt-10">
+            <div className="relative mx-2 mt-10">
                 <img src="/banner.png" alt="Banner Image" className="w-full h-auto" />
                 <div className="absolute top-0 left-0 w-full h-full bg-white opacity-60"></div>
                 <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
