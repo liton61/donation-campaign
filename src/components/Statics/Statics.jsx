@@ -1,7 +1,9 @@
+import PieChart from "./PieChart";
+
 const Statics = () => {
     return (
-        <div>
-            <h1>This is statics page !</h1>
+        <div className="flex justify-center items-center h-[80vh]">
+            <PieChart></PieChart>
         </div>
     );
 };
