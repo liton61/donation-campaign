@@ -6,8 +6,8 @@ const Card = ({ card }) => {
     return (
         <div>
             <Link to={`/cards/${id}`}>
-                <div style={{ backgroundColor: card_bg }} className="relative flex w-full flex-col rounded-xl">
-                    <div className="h-48 overflow-hidden rounded-t-lg">
+                <div style={{ backgroundColor: card_bg }} className="relative flex w-full h-full flex-col rounded-xl">
+                    <div className="h-full overflow-hidden rounded-t-lg">
                         <img src={img} className="h-full w-full object-cover" />
                     </div>
                     <div className="p-5">

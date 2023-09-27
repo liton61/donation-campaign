@@ -1,5 +1,6 @@
 . Our website is fully responsive for mobile and tablet devices
 . We have implemented a search functionality to find specific categories
+. We have used a pie chart for statistics
 . We have used local storage in this web application
 . You can't add duplicate items in local storage
 . It's a donation system web application

@@ -14,9 +14,8 @@ const Donation = () => {
             setNoDonate('No donation');
         }
     }, [])
-    console.log(donate);
     return (
-        <div className="mx-5">
+        <div className="mx-5 mb-10">
             {
                 noDonate ? <p className="h-[80vh] flex justify-center items-center">{noDonate}</p> : <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
@@ -26,11 +25,13 @@ const Donation = () => {
                     </div>
                 </div>
             }
-            <div className={dataLength === donate.length && 'hidden'}>
-                <div className="flex justify-center mt-7">
-                    <button onClick={() => setDataLength(donate.length)} className="bg-[#009444] text-white px-5 py-2 font-semibold rounded">See All</button>
-                </div>
-            </div>
+            {
+                donate.length > 4 ? <div className={dataLength === donate.length && 'hidden'}>
+                    <div className="flex justify-center mt-7">
+                        <button onClick={() => setDataLength(donate.length)} className="bg-[#009444] text-white px-5 py-2 font-semibold rounded">See All</button>
+                    </div>
+                </div> : null
+            }
         </div>
     );
 };

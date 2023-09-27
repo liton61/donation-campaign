@@ -22,7 +22,7 @@ const Header = () => {
                 <ul>
                     <li className="ml-10 text-lg font-semibold">
                         <NavLink to="/statics" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""}>
-                            Statics
+                            Statistics
                         </NavLink>
                     </li>
                 </ul>

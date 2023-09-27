@@ -8,7 +8,7 @@
         "card_bg": "rgba(0, 82, 255, 0.15)",
         "text_color": "#0052FF",
         "btn_bg": "#0052FF",
-        "description": "Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and...",
+        "description": "Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses. Feeling good about yourself and taking care of your health are important for your self-esteem and self-image. Maintain a healthy lifestyle by doing what is right for your body...",
         "price": 15000
     },
     {
@@ -20,7 +20,7 @@
         "card_bg": "rgba(255, 68, 74, 0.15)",
         "text_color": "#FF444A",
         "btn_bg": "#FF444A",
-        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking...",
+        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking. People face problems in their professional as well as personal lives. In such situations, their ability to make rational and informed decisions comes from how educated and self-aware they are...",
         "price": 2000
     },
     {
@@ -32,7 +32,7 @@
         "card_bg": "rgba(121, 194, 63, 0.15)",
         "text_color": "#79C23F",
         "btn_bg": "#79C23F",
-        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic...",
+        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic materials away from the body. It can protect feet from injury and discomfort or facilitate navigation in varied environments. Clothing also provides protection from ultraviolet radiation...",
         "price": 1200
     },
     {
@@ -44,7 +44,7 @@
         "card_bg": "rgba(248, 113, 71, 0.15)",
         "text_color": "#F87147",
         "btn_bg": "#F87147",
-        "description": "Food is one of the basic necessities of life. Food contains nutrients growth substances essential for the growth, repair, and...",
+        "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function. The energy in food is measured in units called calories...",
         "price": 1500
     },
     {
@@ -68,7 +68,7 @@
         "card_bg": "rgba(121, 194, 63, 0.15)",
         "text_color": "#79C23F",
         "btn_bg": "#79C23F",
-        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic...",
+        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic materials away from the body. It can protect feet from injury and discomfort or facilitate navigation in varied environments. Clothing also provides protection from ultraviolet radiation.",
         "price": 1200
     },
     {
@@ -80,7 +80,7 @@
         "card_bg": "rgba(255, 68, 74, 0.15)",
         "text_color": "#FF444A",
         "btn_bg": "#FF444A",
-        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking...",
+        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking. People face problems in their professional as well as personal lives. In such situations, their ability to make rational and informed decisions comes from how educated and self-aware they are.",
         "price": 2000
     },
     {
@@ -116,7 +116,7 @@
         "card_bg": "rgba(255, 68, 74, 0.15)",
         "text_color": "#FF444A",
         "btn_bg": "#FF444A",
-        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking...",
+        "description": "Education helps you develop critical skills like decision-making, mental agility, problem-solving, and logical thinking. People face problems in their professional as well as personal lives. In such situations, their ability to make rational and informed decisions comes from how educated and self-aware they are.",
         "price": 2000
     },
     {
@@ -128,7 +128,7 @@
         "card_bg": "rgba(121, 194, 63, 0.15)",
         "text_color": "#79C23F",
         "btn_bg": "#79C23F",
-        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic...",
+        "description": "Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic materials away from the body. It can protect feet from injury and discomfort or facilitate navigation in varied environments. Clothing also provides protection from ultraviolet radiation.",
         "price": 1200
     },
     {
