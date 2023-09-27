@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef, useState } from "react";
 import Chart from "chart.js/auto";
 
@@ -5,10 +6,15 @@ const PieChart = () => {
     const chartRef = useRef(null);
     const chartInstance = useRef(null);
     const [data, setData] = useState([]);
+    let total = 12;
+    const dataPercentage = (data.length / total) * 100;
+    const remainingPercentage = 100 - dataPercentage;
+
     useEffect(() => {
         if (chartInstance.current) {
             chartInstance.current.destroy();
         }
+
         const myChartRef = chartRef.current.getContext('2d');
         chartInstance.current = new Chart(myChartRef, {
             type: "pie",
@@ -16,7 +22,7 @@ const PieChart = () => {
                 labels: ["Your Donation", "Total Donation"],
                 datasets: [
                     {
-                        data: [data.length, 12 - data.length],
+                        data: [dataPercentage, remainingPercentage],
                         backgroundColor: [
                             'rgba(0, 196, 159, 1)',
                             'rgba(255, 68, 74, 1)'
@@ -31,14 +37,22 @@ const PieChart = () => {
                     legend: {
                         position: 'bottom',
                     },
+                    tooltip: {
+                        callbacks: {
+                            label: (context) => {
+                                const value = context.dataset.data[context.dataIndex];
+                                return `${value.toFixed(2)}%`;
+                            },
+                        },
+                    },
                 },
             },
         });
+
         const donationData = localStorage.getItem('donation');
         if (donationData) {
             const parsedData = JSON.parse(donationData);
             setData(parsedData);
-
         }
 
         return () => {
@@ -46,7 +60,6 @@ const PieChart = () => {
                 chartInstance.current.destroy();
             }
         }
-
     }, [data.length]);
 
     return (
